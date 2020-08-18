@@ -1,6 +1,6 @@
 {
   "name": "react-native-full-screen",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React Native FullScreen api and element",
   "main": "index.js",
   "scripts": {
