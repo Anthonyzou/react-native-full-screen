@@ -26,17 +26,14 @@ public class FullScreenModule implements ReactPackage {
 
     }
 
-  @Override
   public List<NativeModule> createNativeModules(ReactApplicationContext reactApplicationContext) {
     return  Arrays.<NativeModule>asList(new FullScreen(reactApplicationContext));
   }
 
-  @Override
   public List<Class<? extends JavaScriptModule>> createJSModules() {
     return Collections.emptyList();
   }
 
-  @Override
   public List<ViewManager> createViewManagers(ReactApplicationContext reactApplicationContext) {
       return Collections.emptyList();
   }

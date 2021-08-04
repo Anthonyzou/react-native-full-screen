@@ -2,6 +2,15 @@
 
 There is plenty of room for improvment by adding additional react bindings for props and callbacks.
 
+##### Usage:
+
+```
+    import FullScreen from 'react-native-full-screen';
+
+    FullScreen.onFullScreen();
+
+    FullScreen.onFullScreen();
+```
 
 ##### Props: ToggleView
 
